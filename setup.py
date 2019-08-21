@@ -1,4 +1,3 @@
-# shp2osmnx
 # See full license in LICENSE.md
 
 from setuptools import setup
@@ -24,11 +23,11 @@ setup(name='shp2osmnx',
       version='0.2',
       description='Covert .shp files to OSM JSON to use in OSMnx',
       long_description=open('README.md').read(),
-      url='https://github.com/jugrajsingh/shp2osmnx',
+      url='https://github.com/sukhjitsehra/Shapefiles2osmnx',
       classifiers=classifiers,
       license='MIT',
-      author='Jugraj Singh',
-      author_email='jugrajskhalsa@gmail.com',
+      author='Sukhjit and Jugraj',
+      author_email='Sukhjitsehra@gmail.com,
       packages=find_packages(exclude=['tests']),
       test_suite='nose.collector',
       tests_require=['nose'],
